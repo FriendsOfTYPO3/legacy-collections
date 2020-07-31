@@ -1,7 +1,7 @@
 <?php
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'Legacy Collection PHP APIs for sys_collection database tables',
+    'title' => 'APIs for legacy sys_collection DB tables',
     'description' => 'Adds PHP classes, TCA configuration and database tables for generic record collections.',
     'category' => 'misc',
     'state' => 'stable',
