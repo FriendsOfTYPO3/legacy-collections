@@ -1,0 +1,35 @@
+{
+	"name": "friendsoftypo3/legacy-collections",
+	"type": "typo3-cms-extension",
+	"description": "Legacy Collection PHP APIs for sys_collection database tables.",
+	"homepage": "https://typo3.org",
+	"license": ["GPL-2.0+"],
+	"require": {
+		"php": "^7.2",
+		"typo3/cms-core": "^10.0 || ^11.0",
+		"typo3/cms-frontend": "^10.0 || ^11.0"
+	},
+	"require-dev": {
+		"typo3/testing-framework": "^6.3.2"
+	},
+	"extra": {
+		"typo3/class-alias-loader": {
+			"class-alias-maps": [
+				"Migrations/Code/ClassAliasMap.php"
+			]
+		},
+		"typo3/cms": {
+			"extension-key": "legacy_collections"
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"FriendsOfTYPO3\\LegacyCollections\\": "Classes/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"FriendsOfTYPO3\\LegacyCollections\\Tests\\": "Tests/"
+		}
+	}
+}
