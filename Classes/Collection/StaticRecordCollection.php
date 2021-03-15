@@ -193,6 +193,7 @@ class StaticRecordCollection extends AbstractRecordCollection implements Editabl
                     $queryBuilder->createNamedParameter($this->getIdentifier(), \PDO::PARAM_INT)
                 )
             )
+            ->orderBy('sys_collection_entries.sorting')
             ->execute();
         $relatedRecords = [];
         while ($record = $statement->fetch()) {
