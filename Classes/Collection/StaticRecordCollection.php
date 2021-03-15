@@ -167,7 +167,6 @@ class StaticRecordCollection extends AbstractRecordCollection implements Editabl
     {
         $queryBuilder = GeneralUtility::makeInstance(ConnectionPool::class)
             ->getQueryBuilderForTable(self::getCollectionDatabaseTable());
-        $queryBuilder->getRestrictions()->removeAll();
         $statement = $queryBuilder->select($this->getItemTableName() . '.*')
             ->from(self::getCollectionDatabaseTable())
             ->join(
