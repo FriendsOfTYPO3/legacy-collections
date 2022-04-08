@@ -1,6 +1,8 @@
 [![Latest Stable Version](https://poser.pugx.org/friendsoftypo3/legacy-collections/v/stable.svg)](https://extensions.typo3.org/extension/legacy_collections/)
-[![TYPO3](https://img.shields.io/badge/TYPO3-11-orange.svg?style=flat-square)](https://get.typo3.org/version/11)
-[![TYPO3](https://img.shields.io/badge/TYPO3-10-orange.svg?style=flat-square)](https://get.typo3.org/version/10)
+[![TYPO3 11](https://img.shields.io/badge/TYPO3-11-orange.svg?style=flat-square)](https://get.typo3.org/version/11)
+[![TYPO3 10](https://img.shields.io/badge/TYPO3-10-orange.svg?style=flat-square)](https://get.typo3.org/version/10)
+[![Total Downloads](https://poser.pugx.org/friendsoftypo3/legacy-collections/d/total.svg)](https://packagist.org/packages/friendsoftypo3/legacy-collections)
+[![Monthly Downloads](https://poser.pugx.org/friendsoftypo3/legacy-collections/d/monthly)](https://packagist.org/packages/friendsoftypo3/legacy-collections)
 
 # TYPO3 extension `legacy_collections`
 
