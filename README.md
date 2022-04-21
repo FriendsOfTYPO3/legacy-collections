@@ -1,38 +1,28 @@
-# TYPO3 Extension "legacy_collections"
+[![Latest Stable Version](https://poser.pugx.org/friendsoftypo3/legacy-collections/v/stable.svg)](https://extensions.typo3.org/extension/legacy_collections/)
+[![TYPO3 11](https://img.shields.io/badge/TYPO3-11-orange.svg?style=flat-square)](https://get.typo3.org/version/11)
+[![TYPO3 10](https://img.shields.io/badge/TYPO3-10-orange.svg?style=flat-square)](https://get.typo3.org/version/10)
+[![Total Downloads](https://poser.pugx.org/friendsoftypo3/legacy-collections/d/total.svg)](https://packagist.org/packages/friendsoftypo3/legacy-collections)
+[![Monthly Downloads](https://poser.pugx.org/friendsoftypo3/legacy-collections/d/monthly)](https://packagist.org/packages/friendsoftypo3/legacy-collections)
 
-This extension provides TCA information and database tables for the generic "sys_collections"
-concept, which allows for statically select items into a collection.
+# TYPO3 extension `legacy_collections`
 
-In addition, two API classes for fetching items from a collection are available as well:
+This extension provides TCA information and database tables for the generic
+"sys_collections" concept, which allows for statically select items into a
+collection.
+
+In addition, two API classes for fetching items from a collection are available
+as well:
 
 * `FriendsOfTYPO3\LegacyCollections\Collection\RecordCollectionRepository`
 * `FriendsOfTYPO3\LegacyCollections\Collection\StaticRecordCollection`
 
 Both classes previously resided in the PHP namespace `TYPO3\CMS\Core\Collection`.
 
-The functionality was part of the TYPO3 Core until TYPO3 v11.0, and moved into its
-own extension, receiving its own public repository.
+The functionality was part of the TYPO3 Core until TYPO3 v11.0, and moved into
+its own extension, receiving its own public repository.
 
-## Installation
-The latest version can be installed via TER (https://extensions.typo3.org) or via composer
-by adding `composer require friendsoftypo3/legacy-collections` in a TYPO3 v10.0+ installation.
-
-## Current state
-The extension has been part of TYPO3 Core for a very long time but its API wasn't flexible
-enough to build a generic collection model. It may become more healthy if maintained as third party
-extension and has been extracted for this reason.
-
-## Contribution
-Feel free to submit any pull request, or add documentation, tests, as you please.
-We will publish a new version every once in a while, depending on the amount of changes
-and pull requests submitted.
-
-### License
-The extension is published under GPL v2+, all included third-party libraries are
-published under their respective licenses.
-
-### Authors
-Many contributors have been working on this area while this functionality was part of
-the TYPO3 Core. This package is now maintained by a loose group of TYPO3 enthusiasts inside
-the TYPO3 Community. Feel free to contact Benni Mack (benni.mack@typo3.org) for any questions
-regarding "legacy_collections".
+|                  | URL                                                                    |
+|------------------|------------------------------------------------------------------------|
+| **Repository:**  | https://github.com/FriendsOfTYPO3/legacy-collections                   |
+| **Read online:** | https://docs.typo3.org/p/friendsoftypo3/legacy-collections/main/en-us/ |
+| **TER:**         | https://extensions.typo3.org/extension/legacy_collections              |

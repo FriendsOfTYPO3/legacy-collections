@@ -2,7 +2,12 @@
 	"name": "friendsoftypo3/legacy-collections",
 	"type": "typo3-cms-extension",
 	"description": "Legacy Collection PHP APIs for sys_collection database tables.",
-	"homepage": "https://typo3.org",
+	"homepage": "https://extensions.typo3.org/extension/legacy_collections",
+	"support": {
+		"issues": "https://github.com/FriendsOfTYPO3/legacy-collections/issues",
+		"source": "https://github.com/FriendsOfTYPO3/legacy-collections",
+		"docs": "https://docs.typo3.org/p/friendsoftypo3/legacy-collections/main/en-us/"
+	},
 	"license": ["GPL-2.0+"],
 	"require": {
 		"php": "^7.2 || ^8.0",
